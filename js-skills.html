@@ -313,14 +313,15 @@ $(".tricky-to-find").on("click", function() {
 
 <script>
   // put your code here
-var img = document.getElementById("cute-porcupine-image");
+var img = document.getElementById("#cute-porcupine-image");
 
 function getPorcupine() {
-  setTimeout(function () { $("#cute-porcupine-image").attr("src", "http://data.whicdn.com/images/13254589/large.jpg".slideUp(); }, 1000);
-
+  setTimeout(function () { 
+    $("#cute-porcupine-image").attr("src", "http://data.whicdn.com/images/13254589/large.jpg").slideDown(); }, 1000); 
+}
 $("#make-a-porcupine").on('click', getPorcupine);
 
-//need to work on this one! 
+//need to work on this one! I tried to refrence the past excercises. 
 </script>
 
 <div class="hint">
